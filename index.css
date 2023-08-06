@@ -1,0 +1,163 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* Ensure body and html cover the full viewport height */
+}
+
+.wrapper {
+    padding: 2%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 100vh;
+    /* Set Section 1 height to cover viewport height */
+    flex-direction: row;
+}
+
+.logo {
+    margin: 10px 0;
+}
+
+.content-till-now {
+    text-align: left;
+    margin-block: auto;
+}
+
+.content-till-now h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 59px;
+    font-weight: bold;
+    line-height: 71px;
+    font-style: normal;
+    text-align: left;
+    color: #2a0a37;
+}
+
+.content-till-now p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    font-style: normal;
+    text-align: left;
+    color: #2a0a37;
+}
+
+#book-button {
+    border-radius: 26px;
+    border-color: #ffffff;
+    border-style: none;
+    background: #ff148b;
+
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    padding: 1% 5% 1% 5%;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.gif-container {
+    max-width: calc(50% - 10px);
+    /* Adjust the width of the GIF container as needed */
+    max-height: 100%;
+}
+
+/* Styling for Section 2: Text and Explanatory Images */
+.section-2 {
+    background-color: #888;
+    /* Set the background color for Section 2 */
+    padding: 20px;
+    /* Add padding to the section to create space */
+}
+
+.text-content {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.text-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-content p {
+    font-size: 16px;
+}
+
+.explanatory-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.explanatory-images img {
+    max-width: 100%;
+    max-height: 200px;
+    margin: 0 5px;
+}
+
+.button-container {
+    margin-bottom: 10px;
+}
+
+.button-container button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Styling for Section 3: Footer Buttons */
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+hr {
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.follow-us-buttons {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.follow-us-buttons a {
+    margin: 0 5px;
+}
+
+.view-online-button {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.view-online-button button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Style the body scrollbar */
+body {
+    overflow-y: scroll;
+}
