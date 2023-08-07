@@ -7,14 +7,14 @@ html {
 }
 
 .wrapper {
-    padding: 2% 5% 2% 10%;
+    padding: 2% 2% 0% 6%;
 }
 
 .section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-block: 5%;
+    padding-bottom: 5%;
 }
 
 .section-1-content {
@@ -25,16 +25,16 @@ html {
     min-height: 100vh;
     /* Set Section 1 height to cover viewport height */
     flex-direction: row;
-    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 
 /* Adjust the width to 50% for each section in Section 1 */
 .content-till-now {
-    width: 35%;
+    width: 50%;
     box-sizing: border-box;
     /* Include padding and border in the width calculation */
-    padding: 10px;
+    padding: 10px 0px 10px 10px ;
     /* Add padding to the sections */
 }
 
@@ -53,16 +53,16 @@ html {
     line-height: 23px;
     font-style: normal;
     text-align: left;
-    padding: 5% 22% 5% 5%;
+    padding: 3% 22% 3% 5%;
     margin-bottom: 30px;
 }
 
 .gif-container {
     display: flex;
-    width: 65%;
+    width: 50%;
     box-sizing: border-box;
     /* Include padding and border in the width calculation */
-    padding: 10px;
+    padding: 50px 20px 10px 0px ;
     /* Add padding to the sections */
 }
 
@@ -72,8 +72,7 @@ html {
 }
 
 .gif-container #gif {
-    width: 70%;
-    margin: 0% 0% 8% 0%;
+    width: 90%;
 }
 
 .logo {
@@ -83,18 +82,20 @@ html {
 }
 
 .content-till-now {
+    display: inline-block;
     text-align: left;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .content-till-now h1 {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 59px;
+    font-size: 70px;
     font-weight: bold;
     line-height: 71px;
     font-style: normal;
     text-align: left;
     color: #2a0a37;
+    width: fit-content;
 }
 
 .content-till-now p {
@@ -121,6 +122,8 @@ html {
     padding: 1% 7% 1% 7%;
     cursor: pointer;
     color: #ffffff;
+
+    width: fit-content;
 }
 
 /* Styling for Section 2: Text and Explanatory Images */
