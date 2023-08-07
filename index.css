@@ -57,6 +57,26 @@ html {
     margin-bottom: 30px;
 }
 
+#offer-img{
+    height: auto; 
+    float: right; 
+    padding-right: 10%; 
+    width: 15%;
+}
+
+#always-text{
+    margin-block: 10% 2%;
+}
+
+#sec1-text{
+    margin-top: 7%;
+}
+
+#sec1-subtext{
+    width: 90%;
+    margin-top: 8%;
+}
+
 .gif-container {
     display: flex;
     width: 50%;
@@ -68,7 +88,7 @@ html {
 
 .gif-container {
     max-height: 100%;
-    /* Ensure the GIF scales down proportionally */
+    height: 50%;
 }
 
 .gif-container #gif {
@@ -81,6 +101,11 @@ html {
     padding: 0px;
 }
 
+.logo img{
+    width: 120%;
+    height: auto;
+}
+
 .content-till-now {
     display: inline-block;
     text-align: left;
@@ -91,11 +116,12 @@ html {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 70px;
     font-weight: bold;
-    line-height: 71px;
+    line-height: 60px;
     font-style: normal;
     text-align: left;
     color: #2a0a37;
     width: fit-content;
+    margin-block: 0%;
 }
 
 .content-till-now p {
@@ -316,3 +342,14 @@ body {
     overflow-y: scroll;
 }
 
+@media only screen and (max-width: 640px) {
+
+    .wrapper {
+        padding: 2% 2% 0% 2%;
+    }
+
+    .logo img{
+        width: 80%;
+        height: auto;
+    }
+}
